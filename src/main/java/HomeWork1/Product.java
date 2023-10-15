@@ -1,9 +1,9 @@
 package HomeWork1;
 
 public class Product {
-    String name;
-    double cost;
-    int volume;
+    protected static String name;
+    protected static double cost;
+    protected static int volume;
 
     public Product(String name, double cost, int volume) {
         this.name = name;
