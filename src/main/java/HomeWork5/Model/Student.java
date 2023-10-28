@@ -1,4 +1,4 @@
-package DataPartTwo.Model;
+package HomeWork5.Model;
 
 public class Student extends User {
     protected int studentID;
@@ -7,10 +7,6 @@ public class Student extends User {
         super(name, surname, age);
         this.studentID = studentID;
     }
-    /**
-     *
-     * @return ID студента;
-     */
     public int getStudentID() {
         return studentID;
     }

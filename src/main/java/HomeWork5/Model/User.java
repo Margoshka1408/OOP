@@ -1,4 +1,4 @@
-package DataPartTwo.Model;
+package HomeWork5.Model;
 
 public class User {
     protected String name;

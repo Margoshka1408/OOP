@@ -1,4 +1,4 @@
-package DataPartTwo.Model;
+package HomeWork5.Model;
 
 public class Teacher extends User {
     protected String subject;
@@ -9,10 +9,7 @@ public class Teacher extends User {
         this.subject = subject;
         this.teacherID = teacherID;
     }
-    /**
-     *
-     * @return ID учителя;
-     */
+
     public int getTID() {
         return teacherID;
     }

@@ -1,7 +1,6 @@
-package DataPartTwo.Model;
+package HomeWork5.Model;
 
 import java.util.List;
-import java.util.ListIterator;
 
 public class StudyGroup extends User {
     Teacher teacher;
@@ -12,16 +11,9 @@ public class StudyGroup extends User {
         this.teacher = teacher;
         this.listOfStudent = students;
     }
-    /**
-     * @return ID учителя;
-     */
     public int getTeacherID(Teacher teacher) {
         return teacher.teacherID;
     }
-
-    /**
-     * @return ID студента;
-     */
     public int getStudentID(Student student){
         return student.getStudentID();
     }

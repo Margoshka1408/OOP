@@ -1,8 +1,8 @@
-package DataPartTwo.View;
+package HomeWork5.View;
 
-import DataPartTwo.Controller.Controller;
-import DataPartTwo.Model.Student;
-import DataPartTwo.Model.Teacher;
+import HomeWork5.Controller.Controller;
+import HomeWork5.Model.Student;
+import HomeWork5.Model.Teacher;
 
 import java.util.List;
 
